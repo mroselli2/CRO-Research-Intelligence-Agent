@@ -1,0 +1,6 @@
+article_id,file_name,doi,title,journal,notes
+jiaa635,jiaa635.pdf,10.1093/infdis/jiaa635,"Human Immunodeficiency Virus Type 1 Vpu Inhibitor, BIT225, in Combination with 3-Drug Antiretroviral Therapy: Inflammation and Immune Cell Modulation",,GROBID mis-extracted a running-header/citation string as the title
+NEJMoa2312117,NEJMoa2312117.pdf,10.1056/NEJMoa2312117,Enfortumab Vedotin and Pembrolizumab in Untreated Advanced Urothelial Cancer,,GROBID pulled the journal name into the title field
+1-s2.0-S1470204524001591-main,1-s2.0-S1470204524001591-main.pdf,,"BL-B01D1, a first-in-class EGFR-HER3 bispecific antibody-drug conjugate, in patients with locally advanced or metastatic solid tumours: a first-in-human, open-label, multicentre, phase 1 study",,GROBID extracted an author affiliation fragment as the title
+jco-41-1992,jco-41-1992.pdf,10.1200/JCO.22.01989,Pembrolizumab Plus Pemetrexed and Platinum in Nonsquamous Non-Small-Cell Lung Cancer: 5-Year Outcomes From the Phase 3 KEYNOTE-189 Study,Journal of Clinical Oncology,GROBID extracted a truncated DOI from the header (10.1200/JCO.22)
+PMC13255270,PMC13255270.pdf,,Genetically supported drug target prioritization for rare diseases.,,"GROBID extracted the journal name (Genome Medicine) as the title - title-case pattern our suspicious-title heuristic doesn't catch"

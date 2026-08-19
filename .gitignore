@@ -1,0 +1,62 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+
+# VS Code local settings
+.vscode/
+
+# Logs
+*.log
+
+# Generated outputs
+outputs/
+output/
+reports/
+generated_reports/
+
+# Data / private documents - the committed canonical evidence table is the one exception
+data/*
+!data/compiled_article_evidence_table.csv
+input/
+raw/
+private/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Credentials
+secrets/
+credentials*
+token*
+
+CT_RCT_Studies/
+*.pdf
+
+# LLM extraction cache - already covered by outputs/ above, listed explicitly
+# so it stays excluded even if that blanket rule is ever narrowed
+outputs/llm_json/
+
+# Backup / scratch files
+*_backup*.py
+*.bak
+*.orig
+*.tmp
+
+# Screenshots dropped into the repo by accident
+Screen Shot*.png
+Screenshot*.png
