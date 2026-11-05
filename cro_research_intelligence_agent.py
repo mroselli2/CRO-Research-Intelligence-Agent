@@ -81,7 +81,7 @@ if not GROQ_API_KEY:
     )
 
 client = Groq(api_key=GROQ_API_KEY)
-GROQ_MODEL = "llama-3.1-8b-instant"
+GROQ_MODEL = "openai/gpt-oss-120b"
 
 # None = process everything found. Set --max-articles at the CLI for a quick test run.
 MAX_ARTICLES = None

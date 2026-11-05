@@ -2,7 +2,7 @@
 
 Agent prototype for turning clinical research PDFs into a structured evidence table for CRO feasibility review.
 
-The project started as a small experiment: could a folder of oncology and clinical trial papers be parsed, normalized, and summarized into fields that are actually useful for research operations? The current version uses GROBID for scientific PDF parsing, Python for TEI XML processing and output generation, and Groq/Llama 3.1 for structured extraction from the article text.
+The project started as a small experiment: could a folder of oncology and clinical trial papers be parsed, normalized, and summarized into fields that are actually useful for research operations? The current version uses GROBID for scientific PDF parsing, Python for TEI XML processing and output generation, and Groq (gpt-oss-120b) for structured extraction from the article text.
 
 The agent is not meant to replace scientific or clinical review. The goal is to reduce the first-pass manual burden of reading papers, pulling trial details, and identifying articles that deserve closer human review.
 
